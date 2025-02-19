@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel</title>
+    <style>
+         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        h1 { text-align: center; }
+        img { width: 100%; border-radius: 10px; margin-bottom: 20px; }
+        p { text-align: justify; }
+
+        .navbar { background-color: #333; overflow: hidden; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
+        .navbar a { color: white; text-decoration: none; padding: 14px 20px; display: inline-block; }
+        .navbar a:hover { background-color: #575757; border-radius: 5px; }
+        .navbar .logo { font-size: 20px; font-weight: bold; }
+        .navbar .menu { display: flex; gap: 10px; }
+
+        .image-container { display: flex; justify-content: center; margin-bottom: 20px; }
+        .image-container img { max-width: 100%; height: auto; border-radius: 10px; }
+
+        .image-container { display: flex; justify-content: center; margin-bottom: 20px; }
+        .image-container img { width: 300px; height: 300px; object-fit: cover; border-radius: 10px; }
+        
+        .gallery-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; padding: 20px; justify-content: center; }
+        .gallery-container img { width: 100%; height: 150px; object-fit: cover; border-radius: 10px; }
+    </style>
+</head>
+
+    <nav class="navbar">
+        <div class="logo">Travel Yunani</div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="galery.html">Galeri</a>
+        </div>
+    </nav>
+    <!--artikel-->
+    <div class="container">
+        <h1>Jelajahi Keindahan Yunani</h1>
+        <div class="image-container">
+            <img src="asset/Yunani1.jpg" alt="Santorini, Yunani">
+        </div>
+        <p>
+            Yunani adalah salah satu destinasi wisata paling indah di dunia. Negara ini terkenal dengan sejarah kunonya, 
+            pantai yang menakjubkan, serta keindahan arsitektur klasiknya. Dari kota Athena yang penuh sejarah hingga 
+            pulau Santorini yang romantis, Yunani memiliki banyak tempat yang wajib dikunjungi.
+        </p>
+        <h2>Athena - Kota Sejarah</h2>
+        <div class="image-container">
+            <img src="asset/Athena1.png" alt="Parthenon, Athena">
+        </div>
+        <p>
+            Athena, ibu kota Yunani, adalah rumah bagi banyak situs arkeologi terkenal, termasuk Parthenon di Acropolis. 
+            Kota ini juga memiliki museum-museum luar biasa yang menampilkan sejarah dan budaya Yunani kuno.
+        </p>
+        <h2>Santorini - Pulau Romantis</h2>
+        <div class="image-container">
+            <img src="asset/Santorini.webp" alt="Santorini, Pulau Indah">
+        </div>
+        <p>
+            Santorini terkenal dengan pemandangan matahari terbenamnya yang luar biasa. Rumah-rumah putih dengan kubah biru 
+            menjadikan pulau ini sebagai salah satu tujuan wisata paling ikonik di dunia.
+        </p>
+        <h2>Mykonos - Pulau Pesta</h2>
+        <div class="image-container">
+            <img src="asset/Mykonos.jpg" alt="Mykonos, Yunani">
+        </div>
+        <p>
+            Mykonos adalah surga bagi para pecinta pesta dan kehidupan malam. Pulau ini menawarkan pantai yang indah dan
+            restoran kelas dunia.
+        </p>
+    </div>
+    </div>
+</body>
+</html>
